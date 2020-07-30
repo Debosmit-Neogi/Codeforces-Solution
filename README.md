@@ -1,3 +1,3 @@
 # Codeforces-Solution
 
-This repo contains solutions of codeforces (div1 and div2), Codechef (long challanges, lunch time, cook off) , Hackerrank and Hackerearth in C++
+This repository is created and maintained by Debosmit Neogi. This repo contains solutions of codeforces (div1 and div2) contests' problems written in C++

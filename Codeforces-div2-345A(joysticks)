@@ -1,0 +1,58 @@
+/* This code is contributed by:
+                                DEBOSMIT
+                                          */
+                                          
+#include <bits/stdc++.h>
+using namespace std;
+
+#define li  long long int
+#define endl "\n"
+#define MOD 1000000007
+#define MIN(x,y) ((x<y)?x:y)
+#define MAX(x,y) ((x>y)?x:y)
+#define gcd  __gcd
+#define pb push_back
+#define INF (int)1e9
+#define EPS 1e-9
+#define ERASE(str,index) str.erase(str.begin()+index)
+#define pi 2*acos(0.0)
+#define SORTV(v,n) sort(v.begin(),v.end()); //sort vector
+#define SORTA(arr,n) sort(arr,arr+n); //sort array
+#define uli unsigned long long int
+
+
+void Solve() {
+	int a,b;
+	int count=0;
+	cin>>a>>b;
+	while(1){
+		if(a<=0 || b<=0)
+			break;
+		if(a==1 && b==1)
+			break;
+		if(a>b)
+			swap(a,b);
+		a+=1;
+		b-=2;
+		count++;
+	}
+	cout<<count;
+}
+int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+#ifndef ONLINE_JUDGE
+	freopen("input.txt", "r", stdin);
+	freopen("output1.txt", "w", stdout);
+#endif
+ 
+	// li T ;
+	// cin >> T;
+	
+	// while (T--) {
+		
+		Solve();
+		
+	// }
+	return 0;
+}
